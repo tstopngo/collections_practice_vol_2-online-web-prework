@@ -32,7 +32,6 @@ def merge_data(keys, data)
   end
   return merged
   end
-end
 
 def find_cool(array)
   array.select {|hash| hash.any? {|k,v| v == "cool"}}
